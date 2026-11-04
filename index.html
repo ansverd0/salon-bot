@@ -38,6 +38,11 @@
     transition: transform .15s ease, background .15s ease;
   }
   .cta:hover { background: #1e9ad6; transform: translateY(-1px); }
+  .cta.secondary {
+    background: transparent; color: #1e7fb4;
+    border: 1.5px solid #2aabee; box-shadow: none;
+  }
+  .cta.secondary:hover { background: #eaf7ff; transform: translateY(-1px); }
   .cta:focus-visible { outline: 3px solid rgba(42, 171, 238, .45); outline-offset: 3px; }
   .cta .arrow { font-size: 19px; line-height: 1; }
 
@@ -210,12 +215,19 @@
     <a class="cta" href="https://t.me/dem0clientbot" target="_blank" rel="noopener">
       Открыть демо в Telegram <span class="arrow" aria-hidden="true">→</span>
     </a>
-    <p class="fine">Демо-салон, показываю до оплаты.</p>
+    <a class="cta secondary" href="https://t.me/ansverd0" target="_blank" rel="noopener">
+      Написать мне
+    </a>
+    <p class="fine">Демо-салон, показываю до оплаты. Отвечаю в Telegram текстом.</p>
   </div>
 
   <p class="fine">Мастера подключаю при настройке — ему достаточно один раз написать боту.</p>
 
-  <footer>Студия «Лиса», Петрозаводск · бот @dem0clientbot · запись в Telegram, без установки приложений</footer>
+  <footer>
+    Студия «Лиса», Петрозаводск · бот @dem0clientbot · запись в Telegram, без установки приложений<br>
+    Связаться: <a href="https://t.me/ansverd0">@ansverd0</a> ·
+    <a href="policy.html">Политика обработки данных</a>
+  </footer>
 </div>
 </body>
 </html>
